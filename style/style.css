@@ -37,6 +37,9 @@ nav a{
 nav a:hover{
 	color: #d2691e;
 }
+.main-produto{
+	background: linear-gradient(#ffb727, #fdec6f);
+}
 
 .produtos{
 	width: 940px;
@@ -203,20 +206,27 @@ td, th {
 
 }
 
+.contatos{
+	background: linear-gradient(#ffb727, #fdec6f);
+}
 
-footer {
-	text-align: center;
+.rodape{
+	width: 100%;
+	height: 150px;
 	background: #fdec6f;
-	padding: 5px 0;
 }
 
 .copyrigth{
-	color: black;
-	font-size: 13px;
-	margin: 20px 0;
-
+	text-align: center;
+	color: #000000;
+	display: block;
+	margin: 0 auto;
 }
 
+.imagem-footer{
+	display: block;
+	margin: 0 auto;
+}
 
 @media screen and (max-width: 480px){
 	.caixa, .principal, .mapaconteudo, .produtos{
