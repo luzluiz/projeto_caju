@@ -1,6 +1,6 @@
 body{
 	font-family: 'Montserrat', sans-serif;
-	background-color: #ffb727;
+	background: linear-gradient(#ffb727, #fdec6f);
 	
 }
 
@@ -11,10 +11,11 @@ header{
 
 .caixa{
 	
-	background-color: #fdec6f;
+	background-color: #ffb727;
 	position: relative;
-	width: 100%;
-	margin: 0 auto;
+	width: 940px;
+	margin: 0% auto;
+	
 	
 }
 
@@ -151,7 +152,6 @@ td, th {
 }
 
 .banner{
-
 	width: 100%;
 }
 
@@ -201,12 +201,14 @@ td, th {
 .mapaconteudo{
 	width:940px;
 	margin:0 auto;
+	
 
 }
 
 .mapa p{
 	margin: 0 0 2em;
 	text-align: center;
+	
 
 }
 
@@ -214,22 +216,19 @@ td, th {
 	background: linear-gradient(#ffb727, #fdec6f);
 }
 
-.rodape{
-	width: 100%;
-	height: 150px;
-	background: #fdec6f;
+footer{
+
+	text-align: center;
+	background: linear-gradient(#ffb727, #fdec6f);
+	padding: 40px 0;
 }
 
 .copyrigth{
-	text-align: center;
-	color: #000000;
-	display: block;
-	margin: 0 auto;
-}
 
-.imagem-footer{
-	display: block;
-	margin: 0 auto;
+	color: black;
+    font-size: 13px;
+    margin-top: 20px;
+	
 }
 
 @media screen and (max-width: 480px){
